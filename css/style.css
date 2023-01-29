@@ -1,0 +1,159 @@
+.navbar-expand-lg .navbar-nav {
+  grid-gap: 20px;
+  align-items: center;
+  font-size: large;
+  font-family: "Montserrat", sans-serif;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+}
+
+/* CSS Variables */
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba (104, 104, 104, 0.8);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+}
+
+body {
+  background: white;
+  margin: 30px 50px;
+  line-height: 1.4;
+}
+
+.btn {
+  background: var(--dark);
+  color: var(--light);
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+}
+
+/* Top Container */
+
+.top-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    "showcase showcase top-box-a"
+    "showcase showcase top-box-b";
+}
+
+/* Showcase */
+.showcase {
+  grid-area: showcase;
+  min-height: 400px;
+  background: url(../img/Backgroung.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  background-position-y: top;
+}
+
+.showcase h1 {
+  font-size: 1 rem;
+  margin-bottom: 0;
+  color: white;
+}
+
+.showcase p {
+  font-size: 1.5 rem;
+  margin-top: 0;
+  color: white;
+}
+
+/* Top box */
+.top-box {
+  background: var(--primary);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+
+.top-box .price {
+  font-size: 2.5rem;
+}
+
+.top-box-a {
+  grid-area: top-box-a;
+}
+
+.top-box-b {
+  grid-area: top-box-b;
+}
+
+/* Boxes */
+.boxes {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 12rem;
+  display: flex;
+}
+
+.box {
+  background: var(--primary);
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: var(--shadow);
+}
+
+/* Media Queries */
+
+@media (max-width: 700px) {
+  .top-container {
+    grid-template-areas:
+      "showcase showcase"
+      "top-box-a top-box-b";
+  }
+  .showcase h1 {
+    font-size: 2.5rem;
+  }
+
+  .info {
+    grid-template-columns: 1fr;
+  }
+
+  .info .btn {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .top-container {
+    grid-template-areas:
+      "showcase"
+      "top-box-a"
+      "top-box-b";
+  }
+}
