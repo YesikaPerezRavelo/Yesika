@@ -264,3 +264,37 @@ section {
   justify-content: center;
   gap: 1rem;
 }
+
+@media (max-width: 700px) {
+  .loginbox {
+    grid-template-areas: "loginbox";
+  }
+  .loginbox h1 {
+    font-size: x-large;
+  }
+
+  form {
+    align-items: center;
+  }
+
+  .txt_field {
+    grid-template-columns: 1fr;
+    font-size: small;
+  }
+
+  .loginbox .pass {
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .loginbox {
+    grid-template-areas: "loginbox";
+  }
+
+  .loginbox h1 {
+    font-size: large;
+  }
+}

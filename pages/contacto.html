@@ -64,12 +64,12 @@
                 <li class="nav-item">
                   <a class="nav-link" href="../pages/login.html">Login</a>
                 </li>
-                <a class="nav-link active" aria-current="page" href="../pages/funciones.html"
-                  >Funciones</a
-                >
-              <li class="nav-item">
-                <a class="nav-link" href="pages/contacto.html">Contacto</a>
-              </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/funciones.html">Funciones</a>
+                  </li>
+                <a class="nav-link active" aria-current="page" href="../pages/contacto.html"
+                >Contacto</a
+              >
               <div class="logo">
                 <img src="../img/download1.png" alt="">
               </a>
@@ -78,45 +78,27 @@
         </div>
       </nav>
     </header>
-    <!-- Carousel -->
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="../img/funciones.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Entrenamientos Personalizados</h5>
-            <p>Programa exclusivo de entrenamiento para cada usuario.</p>
+    <!-- Form -->
+    
+    <div class="container">
+
+        <form class="container">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
           </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="../img/funciones2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Eventos al aire libre</h5>
-            <p>Buscador de actividades al aire libre.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../img/funciones3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Información</h5>
-            <p>Descripción de eventos deportivos.</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          </form> 
+</div>
+      
+
+
+
                          <!-- Footer -->
 <footer class="text-center text-lg-start bg-white text-muted">
     <!-- Section: Social media -->
