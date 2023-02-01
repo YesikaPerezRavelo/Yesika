@@ -33,7 +33,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg">
         <div class="container">
           <div class="logo">
             <a href="../index.html">
@@ -79,11 +79,60 @@
       </nav>
     </header>
     <!-- Form -->
-
+    
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="../img/contacto.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col">
+          <h2>Preguntas Frecuentes</h2>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat vel suscipit mollitia numquam ullam praesentium voluptates at deserunt distinctio?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui fugit laboriosam porro enim et ab reiciendis explicabo incidunt ad voluptate.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil illum doloribus nostrum quaerat commodi, pariatur voluptatem officia a laboriosam enim.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div class="container">
-      <h1>
+      <h2>
         Dejanos tu mensaje
-      </h1
+      </h2
 
       <div class="container text-center">
         <div class="row row-cols-2">
@@ -103,7 +152,8 @@
             <P>Mensaje:</P>
             <textarea class="form-control" placeholder="Deja tus comentarios aquí" id="floatingTextarea2" style="height: 100px"></textarea>
             </label>
-            <a href="#" class="btn">Enviar</a> 
+            <div style="text-align: right;">
+            <a href="#" class="btn">Enviar</a></div> 
           </div>
             
           
@@ -115,34 +165,7 @@
 
 
                          <!-- Footer -->
-<footer class="text-center text-lg-start bg-white text-muted">
-    <!-- Section: Social media -->
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Conectate con nuestras redes sociales:</span>
-      </div>
-      <!-- Left -->
-  
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="" class="me-4 link-secondary">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
-    <!-- Section: Social media -->
-  
+
     <!-- Section: Links  -->
     <section class="">
       <div class="container text-center text-md-start mt-5">
@@ -200,7 +223,20 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
-            <p><i class="fas fa-home me-3 text-secondary"></i> Martinez,1640</p>
+            <p><div>
+              <a href="" class="me-4 link-secondary">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="" class="me-4 link-secondary">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="" class="me-4 link-secondary">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="" class="me-4 link-secondary">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div></p>
             <p>
               <i class="fas fa-envelope me-3 text-secondary"></i>
               yesikapr@gmail.com
@@ -216,9 +252,9 @@
     <!-- Section: Links  -->
   
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
-      © 2021 Copyright:
-      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center p-4">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="">Yesika Perez Ravelo</a>
     </div>
     <!-- Copyright -->
   </footer>

@@ -7,7 +7,14 @@
 
 h5 {
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 p {
@@ -26,6 +33,7 @@ p {
 h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
+  margin-top: 2rem;
 }
 
 body {
@@ -34,42 +42,43 @@ body {
   line-height: 1.4;
 }
 
-.btn{
+.btn {
   border: 2px solid black;
-  background:black;
+  background: black;
   color: white;
-  cursor:pointer;
-  font-size: 18px;  
+  cursor: pointer;
+  font-size: 18px;
   text-transform: none;
   padding: 10px 20px;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
   transition: all 0.5s;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .btn:before {
-  content:"";
+  content: "";
   top: 0;
-  left:0;
-  height:0%;
+  left: 0;
+  height: 0%;
   width: 100%;
   background-color: var(--dark);
-  z-index:-1;
+  z-index: -1;
   border-radius: 0 0 50% 50%;
   transition: all 0.5s;
 }
 
-.btn:hover:before{
-  height:190%
+.btn:hover:before {
+  height: 190%;
 }
 
-.btn:hover{
-  color: var(--light);
-  text-transform:uppercase;
-  background-color: var(--dark);
+.btn:hover {
+  color: #ff1493;
+  font-weight: bold;
+  background-color: pink;
 }
-
-
 
 img {
   max-width: 100%;
@@ -206,39 +215,20 @@ img {
   font-size: 1.4rem;
   display: inline-block;
 }
-.help_section {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 400px;
-  background: white;
-  border-radius: 10px;
-}
-
-.help_section h1 {
-  text-align: center;
-  padding: 0 0 20px 0;
-  border-bottom: 1px solid silver;
-}
-
-.help_section form {
-  padding: 0 40px;
-  box-sizing: border-box;
-}
 
 .loginbox {
   top: 50%;
   left: 50%;
   width: 400px;
-  background: white;
+  background: var(--light);
   border-radius: 10px;
+  border: var(--dark);
 }
 
 .loginbox h1 {
   text-align: center;
   padding: 7px 7px 15px 7px;
-  border-bottom: 2px solid silver;
+  border-bottom: 2px solid var(--dark);
 }
 
 .loginbox form {
@@ -248,7 +238,7 @@ img {
 
 form .txt_field {
   position: relative;
-  border-bottom: 2px solid #adadad;
+  border-bottom: 2px solid var(--dark);
   margin: 18px 0;
 }
 
@@ -265,7 +255,7 @@ form .txt_field {
   position: center;
   top: 50%;
   left: 5px;
-  color: #adadad;
+  color: var(--dark);
   transform: translateY(-50%);
   font-size: 16px;
   pointer-events: none;
@@ -327,5 +317,10 @@ section {
     font-size: large;
   }
 }
-.Send_Message {
-  max
+.form-control {
+  font-family: "Montserrat", sans-serif;
+}
+
+.col {
+  font-family: "Montserrat", sans-serif;
+}
