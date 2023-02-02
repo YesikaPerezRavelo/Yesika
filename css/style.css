@@ -325,10 +325,10 @@ section {
   font-family: "Montserrat", sans-serif;
 }
 
-.p-5 {
-  background-image: url(../img/Backgroung.jpg);
+.showcase1 {
+  background: url(../img/Backgroung.jpg);
+  min-height: 1000px;
+  background-size: cover;
   background-position: center;
-  border: 20rem;
-  background-size: 90%;
-  padding: 7rem 0 7rem 0;
+  background-position-y: top;
 }
