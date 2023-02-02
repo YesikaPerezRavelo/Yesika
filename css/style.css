@@ -324,3 +324,11 @@ section {
 .col {
   font-family: "Montserrat", sans-serif;
 }
+
+.p-5 {
+  background-image: url(../img/Backgroung.jpg);
+  background-position: center;
+  border: 20rem;
+  background-size: 90%;
+  padding: 7rem 0 7rem 0;
+}
