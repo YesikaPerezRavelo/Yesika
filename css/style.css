@@ -1,3 +1,11 @@
+/* CSS Variables */
+:root {
+  --primary: #ddd;
+  --dark: #333;
+  --light: #fff;
+  --shadow: 0 1px 5px rgba (104, 104, 104, 0.8);
+}
+
 .navbar-expand-lg .navbar-nav {
   grid-gap: 20px;
   align-items: center;
@@ -20,14 +28,6 @@ h2 {
 p {
   font-family: "Montserrat", sans-serif;
   font-size: large;
-}
-
-/* CSS Variables */
-:root {
-  --primary: #ddd;
-  --dark: #333;
-  --light: #fff;
-  --shadow: 0 1px 5px rgba (104, 104, 104, 0.8);
 }
 
 h1 {
@@ -57,7 +57,6 @@ body {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-
 .btn:before {
   content: "";
   top: 0;
@@ -69,11 +68,9 @@ body {
   border-radius: 0 0 50% 50%;
   transition: all 0.5s;
 }
-
 .btn:hover:before {
   height: 190%;
 }
-
 .btn:hover {
   color: #ff1493;
   font-weight: bold;
@@ -89,14 +86,19 @@ img {
   grid-gap: 20px;
 }
 
-/* Top Container */
+.showcase1 {
+  background: url(../img/Backgroung.jpg);
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+  background-position-y: top;
+}
 
+/* Top Container */
 .top-container {
   display: grid;
   grid-gap: 20px;
-  grid-template-areas:
-    "showcase showcase top-box-a"
-    "showcase showcase top-box-b";
+  grid-template-areas: "showcase showcase top-box-a" "showcase showcase top-box-b";
 }
 
 /* Showcase */
@@ -114,13 +116,11 @@ img {
   box-shadow: var(--shadow);
   background-position-y: top;
 }
-
 .showcase h1 {
   font-size: 1 rem;
   margin-bottom: 0;
   color: white;
 }
-
 .showcase p {
   font-size: 1.5 rem;
   margin-top: 0;
@@ -136,16 +136,13 @@ img {
   box-shadow: var(--shadow);
   padding: 1.5rem;
 }
-
 .top-box .price {
   font-size: 2.5rem;
 }
-
-.top-box-a {
+.top-box -a {
   grid-area: top-box-a;
 }
-
-.top-box-b {
+.top-box -b {
   grid-area: top-box-b;
 }
 
@@ -165,37 +162,27 @@ img {
 }
 
 /* Media Queries */
-
 @media (max-width: 700px) {
   .top-container {
-    grid-template-areas:
-      "showcase showcase"
-      "top-box-a top-box-b";
+    grid-template-areas: "showcase showcase" "top-box-a top-box-b";
   }
   .showcase h1 {
     font-size: 2.5rem;
   }
-
   .info {
     grid-template-columns: 1fr;
   }
-
   .info .btn {
     display: block;
     text-align: center;
     margin: auto;
   }
 }
-
 @media (max-width: 500px) {
   .top-container {
-    grid-template-areas:
-      "showcase"
-      "top-box-a"
-      "top-box-b";
+    grid-template-areas: "showcase" "top-box-a" "top-box-b";
   }
 }
-
 #intro-section {
   background-image: url(../img/background3.jpg);
   background-position: center;
@@ -210,8 +197,7 @@ img {
   font-size: 4.5rem;
   font-weight: 400;
 }
-
-.display-2-description {
+.display-2 -description {
   font-size: 1.4rem;
   display: inline-block;
 }
@@ -224,19 +210,16 @@ img {
   border-radius: 10px;
   border: var(--dark);
 }
-
 .loginbox h1 {
   text-align: center;
   padding: 7px 7px 15px 7px;
   border-bottom: 2px solid var(--dark);
 }
-
 .loginbox form {
   padding: 20px 40px;
   box-sizing: border-box;
 }
-
-form .txt_field {
+.loginbox form .txt_field {
   position: relative;
   border-bottom: 2px solid var(--dark);
   margin: 18px 0;
@@ -249,6 +232,7 @@ form .txt_field {
   font-size: 16px;
   border: none;
   outline: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 .txt_field label {
@@ -266,7 +250,7 @@ form .txt_field {
   color: grey;
 }
 
-input[type="submit"] {
+input[type=submit] {
   width: 100%;
   height: 50px;
   border: 1px solid;
@@ -291,28 +275,23 @@ section {
   .loginbox h1 {
     font-size: x-large;
   }
-
   form {
     align-items: center;
   }
-
   .txt_field {
     grid-template-columns: 1fr;
     font-size: small;
   }
-
   .loginbox .pass {
     display: block;
     text-align: center;
     margin: auto;
   }
 }
-
 @media (max-width: 500px) {
   .loginbox {
     grid-template-areas: "loginbox";
   }
-
   .loginbox h1 {
     font-size: large;
   }
@@ -325,10 +304,4 @@ section {
   font-family: "Montserrat", sans-serif;
 }
 
-.showcase1 {
-  background: url(../img/Backgroung.jpg);
-  min-height: 1000px;
-  background-size: cover;
-  background-position: center;
-  background-position-y: top;
-}
+/*# sourceMappingURL=style.css.map */

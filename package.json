@@ -1,0 +1,20 @@
+{
+  "name": "yesika",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YesikaPerezRavelo/Yesika.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YesikaPerezRavelo/Yesika/issues"
+  },
+  "homepage": "https://github.com/YesikaPerezRavelo/Yesika#readme",
+  "description": ""
+}
