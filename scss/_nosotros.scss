@@ -20,29 +20,29 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  box-shadow: var(--shadow);
+  box-shadow: $shadow;
   background-position-y: top;
 
   h1 {
     font-size: 1 rem;
     margin-bottom: 0;
-    color: white;
+    color: $white;
   }
 
   p {
     font-size: 1.5 rem;
     margin-top: 0;
-    color: white;
+    color: $white;
   }
 }
 
 /* Top box */
 .top-box {
-  background: var(--primary);
+  background: $gray;
   display: grid;
   align-items: center;
   justify-content: center;
-  box-shadow: var(--shadow);
+  box-shadow: $shadow;
   padding: 1.5rem;
 
   .price {
@@ -56,21 +56,6 @@
   -b {
     grid-area: top-box-b;
   }
-}
-
-/* Boxes */
-.boxes {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 12rem;
-  display: flex;
-}
-
-.box {
-  background: var(--primary);
-  text-align: center;
-  padding: 1.5rem 2rem;
-  box-shadow: var(--shadow);
 }
 
 /* Media Queries */

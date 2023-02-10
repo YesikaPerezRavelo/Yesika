@@ -1,11 +1,3 @@
-/* CSS Variables */
-:root {
-  --primary: #ddd;
-  --dark: #333;
-  --light: #fff;
-  --shadow: 0 1px 5px rgba (104, 104, 104, 0.8);
-}
-
 .navbar-expand-lg .navbar-nav {
   grid-gap: 20px;
   align-items: center;
@@ -37,15 +29,15 @@ h1 {
 }
 
 body {
-  background: white;
+  background: #fff;
   margin: 30px 50px;
   line-height: 1.4;
 }
 
 .btn {
-  border: 2px solid black;
-  background: black;
-  color: white;
+  border: 2px solid #333;
+  background: #333;
+  color: #fff;
   cursor: pointer;
   font-size: 18px;
   text-transform: none;
@@ -63,7 +55,7 @@ body {
   left: 0;
   height: 0%;
   width: 100%;
-  background-color: var(--dark);
+  background-color: #333;
   z-index: -1;
   border-radius: 0 0 50% 50%;
   transition: all 0.5s;
@@ -113,27 +105,27 @@ img {
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba 104, 104, 104, 0.8;
   background-position-y: top;
 }
 .showcase h1 {
   font-size: 1 rem;
   margin-bottom: 0;
-  color: white;
+  color: #fff;
 }
 .showcase p {
   font-size: 1.5 rem;
   margin-top: 0;
-  color: white;
+  color: #fff;
 }
 
 /* Top box */
 .top-box {
-  background: var(--primary);
+  background: #ddd;
   display: grid;
   align-items: center;
   justify-content: center;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 5px rgba 104, 104, 104, 0.8;
   padding: 1.5rem;
 }
 .top-box .price {
@@ -144,21 +136,6 @@ img {
 }
 .top-box -b {
   grid-area: top-box-b;
-}
-
-/* Boxes */
-.boxes {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 12rem;
-  display: flex;
-}
-
-.box {
-  background: var(--primary);
-  text-align: center;
-  padding: 1.5rem 2rem;
-  box-shadow: var(--shadow);
 }
 
 /* Media Queries */
