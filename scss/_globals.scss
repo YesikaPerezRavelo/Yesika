@@ -7,7 +7,8 @@ $font-sizes: (
   h2: 48px,
   h3: 36px,
   h4: 34px,
-  p: 16px,
+  h5: 16px,
+  p: 18px,
 );
 
 @each $tag, $size in $font-sizes {
