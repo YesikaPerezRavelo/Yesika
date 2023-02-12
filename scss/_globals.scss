@@ -1,23 +1,40 @@
-h5 {
+p {
   font-family: "Montserrat", sans-serif;
-  font-size: 35px;
+}
+
+$font-sizes: (
+  h1: 50px,
+  h2: 48px,
+  h3: 36px,
+  h4: 34px,
+  p: 16px,
+);
+
+@each $tag, $size in $font-sizes {
+  #{$tag} {
+    font-size: $size;
+  }
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
+  color: $white;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-p {
+h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: large;
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
   margin-top: 2rem;
 }
 
@@ -59,9 +76,22 @@ body {
   }
 
   &:hover {
-    color: #ff1493;
-    font-weight: bold;
-    background-color: pink;
+    /* Condicionales */
+    $animal: perro;
+
+    @if $animal == gato {
+      color: #ff1493;
+      font-weight: bold;
+      background-color: pink;
+    } @else if $animal == perro {
+      color: blue;
+      font-weight: bold;
+      background-color: lightblue;
+    } @else if $animal == caballo {
+      color: red;
+      font-weight: bold;
+      background-color: lightyellow;
+    }
   }
 }
 

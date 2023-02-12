@@ -36,6 +36,27 @@
   }
 }
 
+a {
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Color Map */
+$colors: (
+  youtube: #ecb2c5,
+  article: #eea9ee,
+  community: #bfd0e7,
+  courses: #a9e2d3,
+);
+
+@each $name, $color in $colors {
+  .#{$name} {
+    color: $color;
+  }
+}
+
 /* Top box */
 .top-box {
   background: $gray;

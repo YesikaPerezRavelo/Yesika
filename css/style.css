@@ -5,26 +5,49 @@
   font-family: "Montserrat", sans-serif;
 }
 
-h5 {
+p {
   font-family: "Montserrat", sans-serif;
-  font-size: 35px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 34px;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
 }
 
 h2 {
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
+  color: #fff;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-p {
+h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: large;
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
   margin-top: 2rem;
 }
 
@@ -64,9 +87,10 @@ body {
   height: 190%;
 }
 .btn:hover {
-  color: #ff1493;
+  /* Condicionales */
+  color: blue;
   font-weight: bold;
-  background-color: pink;
+  background-color: lightblue;
 }
 
 img {
@@ -117,6 +141,31 @@ img {
   font-size: 1.5 rem;
   margin-top: 0;
   color: #fff;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Color Map */
+.youtube {
+  color: #ecb2c5;
+}
+
+.article {
+  color: #eea9ee;
+}
+
+.community {
+  color: #bfd0e7;
+}
+
+.courses {
+  color: #a9e2d3;
 }
 
 /* Top box */
@@ -170,7 +219,7 @@ img {
 
 .display-2 {
   text-transform: capitalize;
-  color: white;
+  color: #fff;
   font-size: 4.5rem;
   font-weight: 400;
 }
@@ -185,7 +234,7 @@ img {
   width: 400px;
   background: var(--light);
   border-radius: 10px;
-  border: var(--dark);
+  border: #333;
 }
 .loginbox h1 {
   text-align: center;
@@ -198,7 +247,7 @@ img {
 }
 .loginbox form .txt_field {
   position: relative;
-  border-bottom: 2px solid var(--dark);
+  border-bottom: 2px solid #333;
   margin: 18px 0;
 }
 
@@ -216,7 +265,7 @@ img {
   position: center;
   top: 50%;
   left: 5px;
-  color: var(--dark);
+  color: #333;
   transform: translateY(-50%);
   font-size: 16px;
   pointer-events: none;
@@ -224,17 +273,17 @@ img {
 
 .pass {
   margin: -5px 0 20px 5px;
-  color: grey;
+  color: #ddd;
 }
 
 input[type=submit] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #adadad;
+  background: #ddd;
   border-radius: 25px;
   font-size: 18px;
-  color: white;
+  color: #fff;
   font-weight: 700;
   outline: none;
 }
