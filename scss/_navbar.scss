@@ -4,3 +4,12 @@
   font-size: large;
   font-family: "Montserrat", sans-serif;
 }
+
+@mixin hover-lift() {
+  transition: transform 350ms ease-in-out;
+  box-shadow: 0 0.2em 0.2em 0 rgba(rgb(146, 18, 40), 0.2);
+}
+
+.nav-link {
+  @include hover-lift();
+}
