@@ -12,7 +12,7 @@
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(../img/Background2.webp);
+  background: url(../img/background2.webp);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -46,10 +46,10 @@ a:hover {
 
 /* Color Map */
 $colors: (
-  article: #fde38b,
-  youtube: rgb(155, 255, 250),
-  community: rgb(255, 148, 193),
-  courses: #b6ff85,
+  article: #bd39c9,
+  youtube: rgb(41, 130, 231),
+  community: rgb(243, 94, 156),
+  courses: #f85e42,
 );
 
 @each $name, $color in $colors {
@@ -60,7 +60,7 @@ $colors: (
 
 /* Top box */
 .top-box {
-  background: $gray;
+  background: $white;
   display: grid;
   align-items: center;
   justify-content: center;

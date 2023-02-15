@@ -67,7 +67,7 @@ body {
 }
 
 .btn {
-  background: #333;
+  background: black;
   color: #fff;
   cursor: pointer;
   font-size: 18px;
@@ -86,7 +86,7 @@ body {
   left: 0;
   height: 0%;
   width: 100%;
-  background-color: #333;
+  background-color: black;
   z-index: -1;
   border-radius: 0 0 50% 50%;
   transition: all 0.5s;
@@ -111,16 +111,11 @@ img {
 }
 
 .showcase1 {
-  background: url(../img/backgroung.webp);
-  min-height: 600px;
+  background: url(../img/background.webp);
+  min-height: 800px;
   background-size: cover;
   background-position: center;
   background-position-y: top;
-}
-
-.nav-link {
-  transition: transform 350ms ease-in-out;
-  box-shadow: 0 0.2em 0.2em 0 rgba(146, 18, 40, 0.2);
 }
 
 /* Top Container */
@@ -134,7 +129,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(../img/Background2.webp);
+  background: url(../img/background2.webp);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -167,24 +162,24 @@ a:hover {
 
 /* Color Map */
 .article {
-  color: #fde38b;
+  color: #bd39c9;
 }
 
 .youtube {
-  color: rgb(155, 255, 250);
+  color: rgb(41, 130, 231);
 }
 
 .community {
-  color: rgb(255, 148, 193);
+  color: rgb(243, 94, 156);
 }
 
 .courses {
-  color: #b6ff85;
+  color: #f85e42;
 }
 
 /* Top box */
 .top-box {
-  background: #ddd;
+  background: #fff;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -245,7 +240,7 @@ a:hover {
   width: 400px;
   background: var(--light);
   border-radius: 10px;
-  border: #333;
+  border: black;
 }
 .loginbox h1 {
   text-align: center;
@@ -258,7 +253,7 @@ a:hover {
 }
 .loginbox form .txt_field {
   position: relative;
-  border-bottom: 2px solid #333;
+  border-bottom: 2px solid black;
   margin: 18px 0;
 }
 
@@ -276,7 +271,7 @@ a:hover {
   position: center;
   top: 50%;
   left: 5px;
-  color: #333;
+  color: black;
   transform: translateY(-50%);
   font-size: 16px;
   pointer-events: none;

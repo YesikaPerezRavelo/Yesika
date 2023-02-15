@@ -1,16 +1,7 @@
 .showcase1 {
-  background: url(../img/backgroung.webp);
-  min-height: 600px;
+  background: url(../img/background.webp);
+  min-height: 800px;
   background-size: cover;
   background-position: center;
   background-position-y: top;
-}
-
-@mixin hover-lift() {
-  transition: transform 350ms ease-in-out;
-  box-shadow: 0 0.2em 0.2em 0 rgba(rgb(146, 18, 40), 0.2);
-}
-
-.nav-link {
-  @include hover-lift();
 }
