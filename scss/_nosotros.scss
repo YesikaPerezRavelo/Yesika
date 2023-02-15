@@ -12,7 +12,7 @@
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(../img/portada.webp);
+  background: url(../img/portadados.webp);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -46,10 +46,10 @@ a:hover {
 
 /* Color Map */
 $colors: (
-  article: #bd39c9,
-  youtube: rgb(41, 130, 231),
-  community: rgb(243, 94, 156),
-  courses: #f85e42,
+  article: #555486,
+  youtube: rgb(255, 115, 115),
+  community: rgb(252, 140, 186),
+  courses: #fa846f,
 );
 
 @each $name, $color in $colors {

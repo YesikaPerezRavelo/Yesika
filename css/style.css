@@ -129,7 +129,7 @@ img {
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(../img/portada.webp);
+  background: url(../img/portadados.webp);
   background-size: cover;
   background-position: center;
   padding: 3rem;
@@ -162,19 +162,19 @@ a:hover {
 
 /* Color Map */
 .article {
-  color: #bd39c9;
+  color: #555486;
 }
 
 .youtube {
-  color: rgb(41, 130, 231);
+  color: rgb(255, 115, 115);
 }
 
 .community {
-  color: rgb(243, 94, 156);
+  color: rgb(252, 140, 186);
 }
 
 .courses {
-  color: #f85e42;
+  color: #fa846f;
 }
 
 /* Top box */
