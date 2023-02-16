@@ -4,6 +4,7 @@ $font-sizes: (
   h3: 36px,
   h4: 34px,
   h5: 16px,
+  h7: 42px,
   p: 20px,
 );
 
@@ -38,6 +39,21 @@ h3 {
 h4 {
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
+h7 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+  color: $pink;
 }
 
 body {
