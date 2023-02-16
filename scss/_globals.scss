@@ -4,7 +4,7 @@ $font-sizes: (
   h3: 36px,
   h4: 34px,
   h5: 16px,
-  p: 18px,
+  p: 20px,
 );
 
 @each $tag, $size in $font-sizes {
@@ -15,6 +15,7 @@ $font-sizes: (
 
 p {
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
 }
 
 h1 {
