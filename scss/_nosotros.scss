@@ -12,7 +12,7 @@
 .showcase {
   grid-area: showcase;
   min-height: 400px;
-  background: url(../img/background2.webp);
+  background: none;
   background-size: cover;
   min-height: 900px;
   background-position: center;
@@ -21,19 +21,18 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  box-shadow: $shadow;
-  background-position-y: top;
 
-  h1 {
+  h2 {
     font-size: 1 rem;
     margin-bottom: 0;
-    color: $white;
+    color: $dark;
+    padding-bottom: 2rem;
   }
 
   p {
     font-size: 1.5 rem;
     margin-top: 0;
-    color: $white;
+    color: black;
   }
 }
 
@@ -47,10 +46,10 @@ a:hover {
 
 /* Color Map */
 $colors: (
-  article: #a5c5f5,
-  youtube: rgb(255, 167, 167),
-  community: rgb(206, 207, 205),
-  courses: #f8d22a,
+  article: #1571fa,
+  youtube: rgb(252, 42, 42),
+  community: rgb(233, 3, 233),
+  spotify: #20e206,
 );
 
 @each $name, $color in $colors {
@@ -65,7 +64,6 @@ $colors: (
   display: grid;
   align-items: center;
   justify-content: center;
-  box-shadow: $shadow;
   padding: 1.5rem;
 
   -a {
@@ -75,6 +73,11 @@ $colors: (
   -b {
     grid-area: top-box-b;
   }
+}
+
+.img-bottom {
+  align-items: center;
+  size: 50%;
 }
 
 /* Media Queries */
