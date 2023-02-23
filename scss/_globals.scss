@@ -18,6 +18,13 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
+/* Media Queries paragraph */
+
+@media (max-width: 500px) {
+  p {
+    font-size: small;
+  }
+}
 
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -28,6 +35,13 @@ h2 {
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
   color: $white;
+}
+/* Media Queries paragraph */
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 36px;
+  }
 }
 
 h3 {

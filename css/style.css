@@ -43,6 +43,12 @@ p {
   font-weight: 500;
 }
 
+/* Media Queries paragraph */
+@media (max-width: 500px) {
+  p {
+    font-size: small;
+  }
+}
 h1 {
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
@@ -54,6 +60,12 @@ h2 {
   color: #fff;
 }
 
+/* Media Queries paragraph */
+@media (max-width: 500px) {
+  h2 {
+    font-size: 36px;
+  }
+}
 h3 {
   font-family: "Montserrat", sans-serif;
   margin-top: 2rem;
