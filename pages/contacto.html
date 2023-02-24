@@ -52,6 +52,12 @@
           crossorigin="anonymous"
           referrerpolicy="no-referrer"
         />
+        <!-- Animation -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+        
   </head>
   <body>
     <header>
@@ -116,21 +122,21 @@
           />
         </div>
         <div class="col">
-          <h7>Preguntas Frecuentes</h7>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
+              <h3 class="animate__animated animate__bounce">Preguntas Frecuentes</h3>
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  ¿Cuáles son los requisitos para empezar a entrenar?
+                  ¿Como puedo contactarte?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>Obtener un apto medico para realizar actividad física</strong> o aceptar la Declaración Jurada de Salud al resgistrarse en la app. Una vez realizado esto, podrá acceder a todos nuestros programas.
+                  <strong>Envíame un mensaje</strong> o podes escribirme un mensaje por whatsapp, mi numero de whatsapp está ubicado en la parte inferior de cada página. 
                 </div>
               </div>
             </div>
-            <div class="accordion-item">
+            <div class="accordion-item"> 
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   ¿Cómo buscar y descargar app?
@@ -138,7 +144,7 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>En tu dispositivo, abre Google Play Store o Apple Store.</strong> Selecciona Instalar. Busca contenido o explora la app. Selecciona el precio del elemento. Sigue las instrucciones en pantalla para completar la transacción y obtener el contenido.
+                  <strong>En tu dispositivo, abre Google Play Store o Apple Store.</strong> En estos momentos la app se encuentra en construcción. Cuando ya esté terminada la app la podrás encontrar en Google Play y en la App Store. Podrás seleccionar Instalar. Busca contenido o explora la app. Selecciona el precio del elemento. Sigue las instrucciones en pantalla para completar la transacción y obtener el contenido. 
                 </div>
               </div>
             </div>
@@ -160,13 +166,12 @@
     </div>
     
     <div class="container">
-      <h3>
+      <h3 class="animate__animated animate__bounce">
         Dejanos tu mensaje
       <div class="container text-center">
       </h3>
-      <form name="contact" method="POST" data-netlify="true" 
       
-      >
+      <form name="contact" method="POST" data-netlify="true">
         <div class="row row-cols-2">
           <div class="col"><label for="exampleInputName" class="form-label" name="name">Nombre</label>
             <input type="email" class="form-control" id="exampleInputName" aria-describedby="Name"></div>
@@ -179,25 +184,18 @@
         </div>
       </div>
         
-
           <div class="container">
             <div class="col"><label for="exampleInputMessage" class="form-label">Mensaje</label>
             <textarea class="form-control" placeholder="Deja tus comentarios aquí" id="floatingTextarea2" style="height: 100px"></textarea>
             </label>
             <div style="text-align: right;">
-            <a href="#" class="btn">Enviar</a></div> 
+          <button type="submit" class="btn">Enviar</button>
 
-          </form>
-
-          </div>
-            
-        
 </div>
 </div>
-
-      </div>
-
-
+</div>
+</form>
+      
 
                          <!-- Footer -->
 
