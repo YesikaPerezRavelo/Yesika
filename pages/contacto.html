@@ -164,14 +164,17 @@
         Dejanos tu mensaje
       <div class="container text-center">
       </h3>
+      <form name="contact" method="POST" data-netlify="true" onsubmit="submit" 
+      
+      >
         <div class="row row-cols-2">
-          <div class="col"><label for="exampleInputName" class="form-label">Nombre</label>
+          <div class="col"><label for="exampleInputName" class="form-label" name="name">Nombre</label>
             <input type="email" class="form-control" id="exampleInputName" aria-describedby="Name"></div>
-          <div class="col"><label for="exampleInputEmail1" class="form-label">Email</label>
+          <div class="col"><label for="exampleInputEmail1" class="form-label" name="email">Email</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></div>
-          <div class="col"><label for="exampleInputMotive" class="form-label">Motivo</label>
+          <div class="col"><label for="exampleInputMotive" class="form-label" name="motive">Motivo</label>
             <input type="email" class="form-control" id="exampleInputMotive" aria-describedby="Motive"></div>
-          <div class="col"><label for="exampleInputNumber" class="form-label">Teléfono</label>
+          <div class="col"><label for="exampleInputNumber" class="form-label" name="phonenumber">Teléfono</label>
             <input type="email" class="form-control" id="exampleInputNumber" aria-describedby="Number"></div>
         </div>
       </div>
@@ -183,9 +186,12 @@
             </label>
             <div style="text-align: right;">
             <a href="#" class="btn">Enviar</a></div> 
+          <button type="submit" class="btn">Send</button>
+          </form>
+
           </div>
             
-          
+        
 </div>
 </div>
 
