@@ -5,3 +5,16 @@
   background-position: center;
   background-position-y: top;
 }
+
+.owl-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.item {
+  background: none;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  display: flex;
+}
