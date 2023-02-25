@@ -145,7 +145,7 @@ img {
 }
 
 .owl-container {
-  max-width: 900px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
@@ -153,7 +153,6 @@ img {
   background: none;
   justify-content: center;
   align-items: center;
-  height: 30rem;
   display: flex;
 }
 
@@ -258,6 +257,19 @@ a:hover {
     grid-template-areas: "showcase" "top-box-a" "top-box-b";
   }
 }
+.owl-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.item {
+  background: none;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+  display: flex;
+}
+
 #intro-section {
   background-image: url(../img/background3.webp);
   background-position: center;
