@@ -1,0 +1,9 @@
+.showcase2 {
+  background: url(../img/1.jpg);
+  min-height: 1900px;
+  background-size: cover;
+  background-position: center;
+  background-position-y: top;
+}
+
+/*# sourceMappingURL=funciones.css.map */
