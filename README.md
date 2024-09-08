@@ -9,7 +9,7 @@ Welcome to YesFitness, a comprehensive online platform designed to help you achi
 
 ## Features
 
-- **The **YesFitness** website introduces an upcoming app that aims to revolutionize fitness for everyone, regardless of experience level. The site not only highlights the app’s innovative features but also provides an in-depth look at the company’s mission and services, dedicated to improving the lives of its users.
+- **The YesFitness website introduces an upcoming app that aims to revolutionize fitness for everyone, regardless of experience level. The site not only highlights the app’s innovative features but also provides an in-depth look at the company’s mission and services, dedicated to improving the lives of its users.
 
 
 **YesFitness** offers personalized workout programs designed to enhance health, fitness, and overall well-being. With a focus on inclusivity, the app caters to all fitness levels, ensuring that anyone can benefit from its offerings. Whether you're a beginner or a seasoned athlete, YesFitness delivers tailored solutions to help you achieve your goals.
